@@ -1,0 +1,141 @@
+.navbar {
+  position: fixed; /* Fixed position to make it stay at the top right corner */
+  top: 0; /* Distance from the top of the viewport */
+  right: 0; /* Distance from the right of the viewport */
+  background-color: white; /* Background color of the navigation bar */
+  padding: 10px; /* Padding to give some space around the links */
+  float: left;
+  display: block;
+  color:black;
+}
+
+.navbar a {
+  color: black; /* Text color of the links */
+  text-decoration: none; /* Removes default underline styleeee    style */
+  margin-left: 10px; /* Adds some space birakaze between links    g */
+}
+
+.navbar a:hover {
+  /* background-color: #ddd;  Background color of the links on hover */
+  color: teal; /* Text color of the links on hover */
+}
+#par {
+  color: teal;
+  font-size: 30px;
+  font-style: normal;
+  margin-bottom: 50px;
+  border-bottom: 1px solid #178d95;
+  padding-bottom: 20px;
+}
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+}
+
+.image-grid img {
+  width: 100%;
+  height: auto;
+  /*position: relative;*/
+}
+.image-with-description {
+  display: inline-block; /* Allows elements to be displayed on the same line */
+  margin-right: 20px; /* Add space between image-description pairs */
+}
+
+.image-container {
+  width: 200px; /* Set the width of the image container */
+}
+
+.image-container img {
+  width: 100%; /* Make the image fill the entire space of its container */
+  height: auto; /* Automatically adjust the height to maintain aspect ratio */
+}
+
+.description {
+  text-align: center; /* Center the text */
+  margin-top: 5px; /* Add some space between the image and the description */
+}
+.cont {
+  background-color: gainsboro;
+  text-align: center;
+  color: black;
+  width: 100%;
+}
+.cont :hover {
+  background-color: aqua;
+}
+
+input[type="text"],
+select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+#overpic {
+  color: white;
+  background-color: black;
+  width: 100px;
+  margin-bottom: 5px;
+  position: absolute;
+  padding: 10px;
+}
+.img1 {
+  position: relative;
+}
+#brachtects {
+  color: white;
+  width: 100px;
+  position: absolute;
+  margin-bottom: 100px;
+  text-align: center;
+}
+#br {
+  background-color: black;
+  color: white;
+  width: 100px;
+  position: absolute;
+}
+#bgimg {
+  height: 800px;
+  background-image: url("architect.jpg");
+  background-repeat: no-repeat;
+  margin-top: 40px;
+  /* position: relative; */
+
+  /* display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size:30px;
+  position:absolute;
+  z-index:1;
+  width:50%; */
+}
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size:30px;
+  position:absolute;
+  z-index:1;
+  width:50%;
+  }
+
+
+.header span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color:white;
+  width:50px;
+}
+@media screen and (width: 480px) {
+  body {
+    background-color: lightgreen;
+  }
+}
