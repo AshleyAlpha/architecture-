@@ -134,6 +134,12 @@ select {
   color:white;
   width:50px;
 }
+#lastlink{
+  text-align: center;
+  /* background-color: black; */
+  /* color: white;git  */
+  /* width:40px; */
+}
 @media screen and (width: 480px) {
   body {
     background-color: lightgreen;
